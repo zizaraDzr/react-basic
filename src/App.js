@@ -1,9 +1,10 @@
-
-import './App.css';
+import Todo from "./components/Todo.js";
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <h1>My todos</h1>
+      <Todo text="learn react"></Todo>
     </div>
   );
 }
